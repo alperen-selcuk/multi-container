@@ -9,6 +9,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: multi-container
+  labels:
+    app: multi
 spec:
   containers:
   - image: nginx
